@@ -1,5 +1,5 @@
 def personal_data(name, lastname, year_of_birth, city, email, phone):
-    return print(f'Имя: {name} Фамилия: {lastname} Год рождения: {year_of_birth}'
+    return print(f'Имя!: {name} Фамилия: {lastname} Год рождения: {year_of_birth}'
                  f'Город проживания: {city} Email: {email} Телефон: {phone}')
 
 

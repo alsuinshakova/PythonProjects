@@ -5,4 +5,4 @@ def calculator(a, b):
         print(f'Ошибка! Делить на ноль нельзя')
 
 
-print(calculator(int(input('Первое число: ')), int(input('Второе число: '))))
+print(calculator(int(input('Первое число: ')), int(input('Второе число!: '))))

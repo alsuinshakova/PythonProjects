@@ -13,7 +13,7 @@ def calculate_sum(*nums):
 general_sum = 0
 
 while True:
-    numbers_string = input('Введите числа через пробел: ').split(' ')
+    numbers_string = input('Введите числа через пробел!: ').split(' ')
     sum, stop_flag = calculate_sum(*numbers_string)
     general_sum += sum
     print(f'сумма {general_sum}')
